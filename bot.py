@@ -5,7 +5,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from dotenv import load_dotenv
 
 load_dotenv()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7284916721:AAE3nVJJPIKWgvQ59IIEpybBMEvJXM3pbHM")
 DEVELOPER_ID = int(os.getenv("DEVELOPER_ID", "5755811287"))
 
 bot = Bot(token=BOT_TOKEN, parse_mode=types.ParseMode.HTML)
